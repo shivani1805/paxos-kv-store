@@ -1,0 +1,18 @@
+# Use the official OpenJDK base image
+FROM openjdk:17-jdk-slim
+
+# Set the working directory in the container
+WORKDIR /src
+
+# Copy only Java files into /src/server
+COPY paxos /src/paxos
+
+# Copy scripts to the /src folder
+COPY data-population-script.txt /src/data-population-script.txt
+COPY operations-script.txt /src/operations-script.txt
+
+# Compile all .java files in the /src directory
+RUN javac paxos/*.java
+
+# Specify the command to run the application, set the classpath to /src
+ENTRYPOINT ["java", "-cp", "/src", "paxos.Client"]

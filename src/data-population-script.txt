@@ -1,0 +1,11 @@
+# POPULATING KEY VALUE STORE (KV STORE)
+PUT 1 Introduction_to_Java
+PUT 2 Data_Structures_and_Algorithms
+PUT 3 Operating_Systems
+PUT 4 Database_Management_Systems
+PUT 5 Computer_Networks
+PUT 6 Software_Engineering
+PUT 7 Web_Development
+PUT 8 Mobile_Application_Development
+PUT 9 Machine_Learning
+PUT 10 Artificial_Intelligence

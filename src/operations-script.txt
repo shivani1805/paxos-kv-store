@@ -1,0 +1,20 @@
+# Getting existing values
+GET 1
+GET 2
+GET 3
+GET 4
+GET 5
+
+# Adding new values
+PUT 11 Web_Security
+PUT 12 Data_Mining
+PUT 13 Cloud_Computing
+PUT 14 Discrete_Maths
+PUT 15 Human_Computer_Interaction
+
+# Deleting existing values
+DELETE 5
+DELETE 6
+DELETE 7
+DELETE 8
+DELETE 9
